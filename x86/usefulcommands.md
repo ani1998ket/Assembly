@@ -7,18 +7,17 @@
 * elfedit
 * xxd -b
 * ld --verbose
-* readelf -a <binary>
-* objdump -d <binary>  *Disassemble*
+* readelf -a {binary}
+* objdump -sdf {binary}
 * gdb
     
     * **(gdb)** info functions
-    * **(gdb)** disassemble <fname>
+    * **(gdb)** disassemble {fname}
 
 
-----
+
 > ELF stands for Executable and Linkable format
 
-----
 > For compiling and running .asm using nasm assembler
 
     $ nasm -f elf32 <filename.asm> -o <filename.o>
