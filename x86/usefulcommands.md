@@ -1,14 +1,5 @@
 ## Useful Commands
 
-* size
-* ldd
-* hd / hexdump -C 
-* elfedit
-* xxd -b
-* ld --verbose
-
-> ELF stands for Executable and Linkable format
----## Useful Commands
 
 * size
 * ldd
@@ -16,7 +7,15 @@
 * elfedit
 * xxd -b
 * ld --verbose
+* readelf -a <binary>
+* objdump -d <binary>  *Disassemble*
+* gdb
+    
+    * **(gdb)** info functions
+    * **(gdb)** disassemble <fname>
 
+
+----
 > ELF stands for Executable and Linkable format
 
 ----
@@ -26,7 +25,3 @@
     $ ld -m elf_i386 <filename.o> -o <filename>
     $ ./<filename>
 
-> For compiling and running .asm using nasm assembler
-    $ nasm -f elf32 <filename.asm> -o <filename.o>
-    $ ld -m elf_i386 <filename.o> -o <filename>
-    $ ./<filename>
