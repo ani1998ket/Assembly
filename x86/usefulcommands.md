@@ -12,7 +12,8 @@
 * gdb
     
     * **(gdb)** info functions
-    * **(gdb)** disassemble {fname}
+    * **(gdb)** disassemble {funcname}
+    * **(gdb)** file {filename}
 
 
 
