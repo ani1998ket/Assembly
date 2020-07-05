@@ -1,4 +1,4 @@
-## X86 Assembly programming
+## x86 Assembly programming
 
 Install the nasm assembler for debian based distros
 
