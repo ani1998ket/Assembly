@@ -16,4 +16,4 @@ For producing the object file
 
 For assembling all of the binary at once, use:
  
-    $ make ex{{1..8},6b,8b}
+    $ make ex{{1..10},6b,8b}
