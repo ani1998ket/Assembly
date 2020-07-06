@@ -12,4 +12,8 @@ For producing the object file
 
     $ make ex{index}.o
 
-> Replace index with example no. ( eg. make ex1 ) 
+> Replace index with example no. ( eg. make ex1 )
+
+For assembling all of the binary at once, use:
+ 
+    $ make ex{{1..8},6b,8b}
