@@ -28,3 +28,4 @@
 > Helpful links
 
 * https://stackoverflow.com/questions/7848771/how-can-one-see-content-of-stack-with-gdb
+* https://stackoverflow.com/questions/3577922/how-to-link-a-gas-assembly-program-that-uses-the-c-standard-library-with-ld-with
