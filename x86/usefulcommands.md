@@ -14,7 +14,7 @@
     * **(gdb)** info functions
     * **(gdb)** disassemble {funcname}
     * **(gdb)** file {filename}
-
+    * **(gdb)** help
 
 
 > ELF stands for Executable and Linkable format
@@ -25,3 +25,6 @@
     $ ld -m elf_i386 <filename.o> -o <filename>
     $ ./<filename>
 
+> Helpful links
+
+* https://stackoverflow.com/questions/7848771/how-can-one-see-content-of-stack-with-gdb
