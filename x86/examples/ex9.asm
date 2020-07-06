@@ -23,3 +23,4 @@ times2:
 
 
 ; Remember to pop off the arguments from the stack in the caller instruction
+; Passing return value in the eax register is a convention to follow
