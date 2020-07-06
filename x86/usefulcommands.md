@@ -8,7 +8,7 @@
 * xxd -b
 * ld --verbose
 * readelf -a {binary}
-* objdump -sdf {binary}
+* objdump -sdf -Mintel {binary}
 * gdb
     
     * **(gdb)** info functions
