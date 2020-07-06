@@ -6,7 +6,7 @@
 global _start
 
 _start:
-    sub esp, 5                  ; esp -= 5
+    sub esp, 5                  ; Allocating 5 bytes of memory on stack
     mov [esp], byte 'H'         ; *esp = 'H'
     mov [esp + 1], byte 'e'     ; *(esp + 1) = 'e'
     mov [esp + 2], byte 'y'     ; *(esp + 2) = 'y'
